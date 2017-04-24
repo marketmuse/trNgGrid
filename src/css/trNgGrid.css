@@ -51,6 +51,29 @@
   margin-bottom: 0.1em;
 }
 
+
+
+/*
+* Search input wrapper related
+*/
+
+.search-input-wrapper input[type="text"] {
+    position: relative;
+}
+
+.search-input-wrapper:before {
+    font-family: 'FontAwesome';
+    position: relative;
+    left: -10px;
+    content: "\f002";
+    top:5px;
+    color:darkgray;
+    font-size:16px;
+}
+
+
+
+
 /*Additional media blocks for IE*/ 
 /* http://keithclark.co.uk/articles/moving-ie-specific-css-into-media-blocks/media-tests/ */
 @media screen\0 {
